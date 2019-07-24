@@ -9,7 +9,7 @@ The DeepMedic project aims at providing an easy to use tool and robust tool for 
 
 **We continue our efforts to maintain and extend this project.**
 
-To better manage our efforts and workload, the repo was transferred seamlessly under its own organization.
+Our team is growing. To better manage our efforts and workload, the repo was transferred seamlessly under its own organization.
 
 **The repository has been transferred to:**
 
