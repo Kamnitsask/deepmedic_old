@@ -19,8 +19,28 @@ Please find our work and follow the new developments there. Thank you all for yo
 
 
 Sincerely,
+
 Konstantinos Kamnitsas
 
+
+### If you had cloned previous project, update your remote URL
+
+Since the transfer of the repo, GitHub itself should have automatically updated the link of any **forked** projects automatically to the new location. 
+
+If you had **cloned** the previous project from (https://github.com/kamnitsask/deepmedic), then you can seamlessly continue your workflow as follows. You simply have to change in your cloned deepmedic the URL that points to the remote location where the project lies, so that you continue pulling and pushing. For this, simply do:
+
+```cshell
+$ cd ./root/folder/of/your/cloned/deepmedic
+$ git remote -v         # It will return something like the following 2 lines...
+origin	https://github.com/Kamnitsask/deepmedic.git (fetch)
+origin	https://github.com/Kamnitsask/deepmedic.git (push)
+$ git remote set-url origin https://github.com/deepmedic/deepmedic.git
+$ git remote -v         # It should now return the updated url...
+origin	https://github.com/deepmedic/deepmedic.git (fetch)
+origin	https://github.com/deepmedic/deepmedic.git (push)
+```
+
+Done. You can now continue pulling/pushing like normal.
 
 
 
